@@ -10,7 +10,7 @@ def calculusator():
     def f(x):
         return ( (32)**(1/2) / math.sqrt((1-x**4))  )
 
-    #Creates t
+    
     bgn1 = float(input("Enter the lower bound of the graph: "))
     end1 = float(input("Enter the upper bound of the graph: "))
     f2 = np.vectorize(f)
